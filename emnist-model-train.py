@@ -26,9 +26,9 @@ labels = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' #label
 categories = len(labels)
 
 batch_size = 1024 #how many images you are going to put to nn in once
-epochs = 5 #an iteration over the entire data
+epochs = 1 #an iteration over the entire data
 
-model_path = 'C:/Users/Kan/Desktop/emnist-cnn-model-epoch5.h5' #path of the model
+model_path = 'C:/Users/Kan/Desktop/emnist-cnn-model-epoch1.h5' #path of the model
 
 
 #read data from disk
